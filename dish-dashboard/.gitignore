@@ -1,0 +1,12 @@
+# Dependencies — never commit these (thousands of files, anyone can reinstall with npm install)
+node_modules/
+
+# Environment variables — contains DB credentials, never push to public repos
+.env
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db

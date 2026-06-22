@@ -1,0 +1,31 @@
+/* ============================================================
+   GLOBAL STYLES — resets and base typography
+   Applied to the entire app
+   ============================================================ */
+
+/* Import Google Font — Inter is a clean, modern font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* CSS Reset — removes default browser spacing for consistency */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* padding/border included in width/height */
+}
+
+/* Base styles for the page */
+body {
+  font-family: "Inter", sans-serif;
+  /* Dark gradient background — feels premium */
+  background: linear-gradient(135deg, #0f0c29 0%, #1a1a2e 50%, #16213e 100%);
+  min-height: 100vh;
+  color: #e0e0e0; /* Light text on dark background */
+  -webkit-font-smoothing: antialiased; /* Smoother text rendering */
+}
+
+/* Root container */
+#root {
+  min-height: 100vh;
+}
